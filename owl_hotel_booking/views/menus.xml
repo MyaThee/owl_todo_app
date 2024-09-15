@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+
+    <record id="owl_hotel_booking_action" model="ir.actions.act_url">
+        <field name="name">Owl Hotel Booking</field>
+        <field name="url">/owl_hotel_booking</field>
+    </record>
+    <!-- This Menu Item will appear in the Upper bar, That's why It needs NO parent or action -->
+    <menuitem id="owl_hotel_booking_root" name="Owl Hotel Booking">
+        <!-- This Menu Item must have a parent and an action -->
+        <menuitem id="owl_owl_hotel_booking_action_menu" name="Owl Hotel Booking" action="owl_hotel_booking.owl_hotel_booking_action" sequence="0"/>
+    </menuitem>
+</odoo>
